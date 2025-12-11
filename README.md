@@ -29,7 +29,7 @@ This project uses Python 3.x and requires numerous dependencies listed in `requi
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/AkeBoss-tech/CoolCryptoCode.git
+git clone <repository-url>
 cd CoolCryptoCode
 ```
 
@@ -181,7 +181,7 @@ The project includes historical data for:
 - **Cryptocurrencies**: Bitcoin (BTC-USD), Ethereum (ETH-USD), Dogecoin (DOGE-USD), Ripple (XRP-USD)
 - **Stock Indices**: S&P 500 (^GSPC), Dow Jones (^DJI)
 
-Data is fetched via Yahoo Finance API and cached locally in 15-minute intervals.
+Data is fetched via Yahoo Finance API with 15-minute interval granularity and cached locally as CSV files for reuse.
 
 ## 🔗 Polymarket Integration
 
